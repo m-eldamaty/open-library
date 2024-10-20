@@ -1,4 +1,6 @@
-export const BOOKS = [
+import { Book } from './book.model';
+
+export const BOOKS: Book[] = [
 	{
 	  id: 1,
 	  title: 'The Great Gatsby',
@@ -6,7 +8,7 @@ export const BOOKS = [
 	  first_publish_year: 1925,
 	  cover_id: 12345,
 	  edition_count: 5,
-	  subjects: ['Fiction', 'Classic'],
+	  subjects: ['Fiction', 'Classic', 'Finance'],
 	  ratings: { average_rating: 4.4, total_ratings: 1500 },
 	},
 	{
@@ -16,7 +18,7 @@ export const BOOKS = [
 	  first_publish_year: 1949,
 	  cover_id: 67890,
 	  edition_count: 7,
-	  subjects: ['Dystopian', 'Political Fiction'],
+	  subjects: ['Dystopian', 'Political Fiction', 'Finance'],
 	  ratings: { average_rating: 4.2, total_ratings: 2000 },
 	},
 	{
@@ -26,7 +28,7 @@ export const BOOKS = [
 	  first_publish_year: 1960,
 	  cover_id: 54321,
 	  edition_count: 8,
-	  subjects: ['Fiction', 'Historical'],
+	  subjects: ['Fiction', 'Historical', 'Finance'],
 	  ratings: { average_rating: 4.3, total_ratings: 1800 },
 	},
 	{
@@ -46,7 +48,7 @@ export const BOOKS = [
 	  first_publish_year: 1851,
 	  cover_id: 54322,
 	  edition_count: 9,
-	  subjects: ['Adventure', 'Classic'],
+	  subjects: ['Adventure', 'Classic', 'Finance'],
 	  ratings: { average_rating: 4.1, total_ratings: 900 },
 	},
 	{
@@ -56,7 +58,7 @@ export const BOOKS = [
 	  first_publish_year: 1951,
 	  cover_id: 98765,
 	  edition_count: 10,
-	  subjects: ['Fiction', 'Classic'],
+	  subjects: ['Fiction', 'Classic', 'Finance'],
 	  ratings: { average_rating: 3.8, total_ratings: 1500 },
 	},
 	{
@@ -66,7 +68,7 @@ export const BOOKS = [
 	  first_publish_year: 1932,
 	  cover_id: 11111,
 	  edition_count: 6,
-	  subjects: ['Dystopian', 'Science Fiction'],
+	  subjects: ['Dystopian', 'Science Fiction', 'Finance'],
 	  ratings: { average_rating: 4.0, total_ratings: 1200 },
 	},
 	{
@@ -76,7 +78,7 @@ export const BOOKS = [
 	  first_publish_year: 1953,
 	  cover_id: 22222,
 	  edition_count: 5,
-	  subjects: ['Dystopian', 'Science Fiction'],
+	  subjects: ['Dystopian', 'Science Fiction', 'Finance'],
 	  ratings: { average_rating: 4.2, total_ratings: 1400 },
 	},
 	{
@@ -86,7 +88,7 @@ export const BOOKS = [
 	  first_publish_year: 1937,
 	  cover_id: 33333,
 	  edition_count: 15,
-	  subjects: ['Fantasy', 'Adventure'],
+	  subjects: ['Fantasy', 'Adventure', 'Finance'],
 	  ratings: { average_rating: 4.5, total_ratings: 2000 },
 	},
 	{
@@ -96,7 +98,7 @@ export const BOOKS = [
 	  first_publish_year: 1988,
 	  cover_id: 44444,
 	  edition_count: 20,
-	  subjects: ['Adventure', 'Philosophy'],
+	  subjects: ['Adventure', 'Philosophy', 'Finance'],
 	  ratings: { average_rating: 4.6, total_ratings: 2500 },
 	},
 	{
@@ -106,7 +108,7 @@ export const BOOKS = [
 	  first_publish_year: 1869,
 	  cover_id: 55555,
 	  edition_count: 8,
-	  subjects: ['Historical Fiction', 'Classic'],
+	  subjects: ['Historical Fiction', 'Classic', 'Finance'],
 	  ratings: { average_rating: 4.3, total_ratings: 1300 },
 	},
 	{
@@ -116,7 +118,7 @@ export const BOOKS = [
 	  first_publish_year: 1890,
 	  cover_id: 66666,
 	  edition_count: 9,
-	  subjects: ['Fiction', 'Classic'],
+	  subjects: ['Fiction', 'Classic', 'Finance'],
 	  ratings: { average_rating: 4.1, total_ratings: 1100 },
 	},
   ];
