@@ -54,7 +54,7 @@ export const BOOKS: Book[] = [
 	{
 		id: 6,
 		title: "The Catcher in the Rye",
-		authors: [{ id: 6, name: "J.D. Salinger" }],
+		authors: [{ id: 3, name: "Harper Lee" }],
 		first_publish_year: 1951,
 		cover_id: 6666,
 		edition_count: 10,
