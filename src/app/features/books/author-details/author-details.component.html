@@ -1,1 +1,26 @@
-<p>author-details works!</p>
+<div class="container mx-auto px-4">
+	<h1 class="text-3xl font-bold mt-8">{{ authorDetails?.name }}</h1>
+
+	<div class="flex items-start mt-4">
+		<img
+			[src]="authorDetails?.photoUrl"
+			alt="{{ authorDetails?.name }}"
+			class="w-32 h-32 rounded border border-gray-300 mr-4"
+		/>
+
+		<div>
+			<p><strong>Birth Date:</strong> {{ authorDetails?.birthDate }}</p>
+			<p><strong>Work Count:</strong> {{ authorDetails?.workCount }}</p>
+		</div>
+	</div>
+
+	<h2 class="text-2xl font-semibold mt-6">Top Subjects of the Author:</h2>
+	<div class="mt-2">
+		<span
+			*ngFor="let subject of authorDetails?.topSubjects; let i = index"
+			class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm text-gray-700 mr-2 mb-2"
+		>
+			{{ subject }}
+		</span>
+	</div>
+</div>
