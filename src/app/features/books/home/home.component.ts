@@ -17,10 +17,12 @@ export class HomeComponent {
 	loadFinanceBooks(): void {
 	  this.books = BOOKS.filter(book => book.subjects.includes('Finance')).slice(0, 9);
 	}
-  
 	getBookCoverUrl(book: Book): string {
-	  return book.cover_id 
-		? `assets/images/cover${book.cover_id}.jpg` 
-		: 'assets/images/default-placeholder.jpg';
-	}
+		if (book.cover_id) {
+		  return `assets/images/${book.cover_id}.jpg`;
+		} else {
+		  return 'assets/images/default-cover.png';
+		}
+	  }
+	  
 }

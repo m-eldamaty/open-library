@@ -16,7 +16,7 @@ export interface Author {
 	title: string;
 	authors: Author[];
 	first_publish_year: number;
-	cover_id: number;
+	cover_id: number | null;
 	edition_count: number;
 	subjects: string[];
 	ratings: Rating;
