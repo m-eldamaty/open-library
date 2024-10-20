@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SearchComponent } from './features/search/search/search.component';
 import { WishlistComponent } from './features/wishlist/wishlist/wishlist.component';
+import { BooksModule } from './features/books/books.module';
 
 @NgModule({
   declarations: [
@@ -12,9 +13,10 @@ import { WishlistComponent } from './features/wishlist/wishlist/wishlist.compone
     SearchComponent,
     WishlistComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
+  imports: [    
+	BrowserModule,
+    AppRoutingModule,
+	BooksModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
