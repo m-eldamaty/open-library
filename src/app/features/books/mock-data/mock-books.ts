@@ -4,9 +4,7 @@ export const BOOKS: Book[] = [
 	{
 		id: 1,
 		title: "The Great Gatsby",
-		authors: [
-			{ name: "F. Scott Fitzgerald", birthYear: 1896, deathYear: 1940 },
-		],
+		authors: [{ id: 1, name: "F. Scott Fitzgerald" }],
 		first_publish_year: 1925,
 		cover_id: 1111,
 		edition_count: 5,
@@ -16,7 +14,7 @@ export const BOOKS: Book[] = [
 	{
 		id: 2,
 		title: "Brave New World",
-		authors: [{ name: "George Orwell", birthYear: 1903, deathYear: 1950 }],
+		authors: [{ id: 2, name: "George Orwell" }],
 		first_publish_year: 1949,
 		cover_id: 2222,
 		edition_count: 7,
@@ -26,7 +24,7 @@ export const BOOKS: Book[] = [
 	{
 		id: 3,
 		title: "To Kill a Mockingbird",
-		authors: [{ name: "Harper Lee", birthYear: 1926, deathYear: 2016 }],
+		authors: [{ id: 3, name: "Harper Lee" }],
 		first_publish_year: 1960,
 		cover_id: 54321,
 		edition_count: 8,
@@ -36,7 +34,7 @@ export const BOOKS: Book[] = [
 	{
 		id: 4,
 		title: "Pride and Prejudice",
-		authors: [{ name: "Jane Austen", birthYear: 1775, deathYear: 1817 }],
+		authors: [{ id: 4, name: "Jane Austen" }],
 		first_publish_year: 1813,
 		cover_id: 4444,
 		edition_count: 12,
@@ -46,7 +44,7 @@ export const BOOKS: Book[] = [
 	{
 		id: 5,
 		title: "Moby Dick",
-		authors: [{ name: "Herman Melville", birthYear: 1819, deathYear: 1891 }],
+		authors: [{ id: 5, name: "Herman Melville" }],
 		first_publish_year: 1851,
 		cover_id: 5555,
 		edition_count: 9,
@@ -56,7 +54,7 @@ export const BOOKS: Book[] = [
 	{
 		id: 6,
 		title: "The Catcher in the Rye",
-		authors: [{ name: "J.D. Salinger", birthYear: 1919, deathYear: 2010 }],
+		authors: [{ id: 6, name: "J.D. Salinger" }],
 		first_publish_year: 1951,
 		cover_id: 6666,
 		edition_count: 10,
@@ -66,7 +64,7 @@ export const BOOKS: Book[] = [
 	{
 		id: 7,
 		title: "Brave New World",
-		authors: [{ name: "Aldous Huxley", birthYear: 1894, deathYear: 1963 }],
+		authors: [{ id: 7, name: "Aldous Huxley" }],
 		first_publish_year: 1932,
 		cover_id: null,
 		edition_count: 6,
@@ -76,7 +74,7 @@ export const BOOKS: Book[] = [
 	{
 		id: 8,
 		title: "Fahrenheit 451",
-		authors: [{ name: "Ray Bradbury", birthYear: 1920, deathYear: 2012 }],
+		authors: [{ id: 8, name: "Ray Bradbury" }],
 		first_publish_year: 1953,
 		cover_id: null,
 		edition_count: 5,
@@ -86,7 +84,7 @@ export const BOOKS: Book[] = [
 	{
 		id: 9,
 		title: "The Hobbit",
-		authors: [{ name: "J.R.R. Tolkien", birthYear: 1892, deathYear: 1973 }],
+		authors: [{ id: 9, name: "J.R.R. Tolkien" }],
 		first_publish_year: 1937,
 		cover_id: 9999,
 		edition_count: 15,
@@ -96,7 +94,7 @@ export const BOOKS: Book[] = [
 	{
 		id: 10,
 		title: "The Alchemist",
-		authors: [{ name: "Paulo Coelho", birthYear: 1947 }],
+		authors: [{ id: 10, name: "Paulo Coelho" }],
 		first_publish_year: 1988,
 		cover_id: 9999,
 		edition_count: 20,
@@ -106,7 +104,7 @@ export const BOOKS: Book[] = [
 	{
 		id: 11,
 		title: "War and Peace",
-		authors: [{ name: "Leo Tolstoy", birthYear: 1828, deathYear: 1910 }],
+		authors: [{ id: 11, name: "Leo Tolstoy" }],
 		first_publish_year: 1869,
 		cover_id: 55555,
 		edition_count: 8,
@@ -116,7 +114,7 @@ export const BOOKS: Book[] = [
 	{
 		id: 12,
 		title: "The Picture of Dorian Gray",
-		authors: [{ name: "Oscar Wilde", birthYear: 1854, deathYear: 1900 }],
+		authors: [{ id: 12, name: "Oscar Wilde" }],
 		first_publish_year: 1890,
 		cover_id: 66666,
 		edition_count: 9,

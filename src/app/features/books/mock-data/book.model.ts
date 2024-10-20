@@ -1,8 +1,4 @@
-export interface Author {
-	name: string;
-	birthYear: number;
-	deathYear?: number;
-}
+import { Author } from "./author.model";
 
 export interface Book {
 	id: number;
