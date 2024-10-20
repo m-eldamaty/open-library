@@ -1,17 +1,10 @@
-// src/app/features/books/mock-data/book.model.ts
-
 export interface Author {
 	name: string;
 	birthYear: number;
 	deathYear?: number;
-  }
-  
-  export interface Rating {
-	average_rating: number;
-	total_ratings: number;
-  }
-  
-  export interface Book {
+}
+
+export interface Book {
 	id: number;
 	title: string;
 	authors: Author[];
@@ -19,6 +12,5 @@ export interface Author {
 	cover_id: number | null;
 	edition_count: number;
 	subjects: string[];
-	ratings: Rating;
-  }
-  
+	noOfPages: number;
+}
